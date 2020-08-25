@@ -1,0 +1,89 @@
+/* 
+================ Default styles ================
+*/
+
+* {
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.default_box {
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+
+.form-header {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+input {
+    background-color: #e8e8e8;
+    border: none;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* NAV SECTION */
+
+nav {
+    width: 100%;
+    min-height: 100px;
+    background-color: #1b3257; 
+}
+
+nav > h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 0.7em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* HEADER SECTION */
+
+header {
+    text-align: center;
+    min-height: 100px;
+    border-bottom: 5px solid black;
+    line-height: 1.5em;
+}
+
+header > h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 2em;
+    color: black;
+}
+
+/* FORM SECTION */
+form {
+    min-height: 200px;
+    border: 1px solid green;
+}
+
+.contact {
+    padding: 0.5em;
+}
+
+.contact ul {
+    padding: 1em;
+    width: 100%;
+    border: 1px solid green;
+    padding-left: 0;
+}
+
+.contact ul li {
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0 0 10px 0;
+    width: 100%;
+}
