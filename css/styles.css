@@ -165,6 +165,12 @@ footer {
 }
 
 @media (min-width:768px) {
+    * {
+        font-size: 16px;
+    }
+    header > h2 {
+        margin-top: 15px;
+    }
     .default_box {
         width: 75%;
     }
@@ -177,9 +183,6 @@ footer {
     .contact_flex li label {
         position: relative;
         top: 15px;
-    }
-    header > h2 {
-        margin-top: 15px;
     }
 }
 
