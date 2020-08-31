@@ -178,6 +178,9 @@ footer {
         position: relative;
         top: 15px;
     }
+    header > h2 {
+        margin-top: 15px;
+    }
 }
 
 
